@@ -1,0 +1,81 @@
+body{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#header{
+    background-color: hsl(0, 57%, 51%);
+    color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.8);
+}
+#myH1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.navbar{
+    color: black;
+    padding: 5px;
+}
+#myH4{
+    font-size: 1.5rem;
+}
+#myImg{
+    max-height: 400px;
+}
+#homePageText{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .card{
+    width: 270px;
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid crimson;
+    border-radius: 15px;
+    box-shadow: 0 0 7px hsl(0, 0%, 0%, 0.5);
+}
+.container .card .productImg{
+    width: 230px;
+    margin: 20px auto;
+}
+.container .card .productImg .img{
+    width: 100%;
+    height: 100%;
+}
+.container .card .productImg .img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.container .card .productInfo{
+    font-size: 18px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+}
+.container .card .btn{
+    width: 100%;
+}
+.container .card .btn button{
+    width: 100%;
+    padding: 10px;
+    background: crimson;
+    border: 1px gray;
+    outline: none;
+    color: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0 0 15px 15px;
+}
